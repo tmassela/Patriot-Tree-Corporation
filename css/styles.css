@@ -2,6 +2,11 @@
     background-color: rgb(3, 3, 104);
 }
 
+.navbar-custom { 
+    background-color:  rgb(3, 3, 104);
+    min-height: 150px;
+} 
+
 .row-header{
     margin:0px auto;
     padding:0px;
@@ -133,7 +138,14 @@ ul li a:hover {
     transition: all 0.4s ease;
 }
 
+.navbar-toggler-icon{
+    width:50px !important;
+    height:50px !important;
+  }
 
+.testimonials {
+    font-size: 20px;
+}
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

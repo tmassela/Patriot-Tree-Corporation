@@ -16,27 +16,36 @@
 
 <body>     
             <header class="jumbotron sticky-top" style="z-index: 100">
-                <div class="container">
-                    <div class="row row-header">
-                        <div class="col-12 col-sm-2 text-left">
-                            <img src="images/logo.jpg" alt="Patriot Tree Services Logo" height="120px" width="120px" >
-                        </div>
+                <div class="container" >
+                    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar navbar-custom " >
+                        <div>
+                            <img src="images/logo.jpg" height="120px" width="120px">
+                        </div>  
 
-                        <div class="col-12 col-sm-5 text-left">
-                            <h1 style="font-size: 45px">Patriot Tree Corporation</h1>
-                            <h3>Transforming Outdoor Spaces</h3>  
+                        <div style="margin-left: 15px; color: white">
+                            <h1 style="font-size: 50px">Patriot Tree Corporation</h1>
+                            <h3>Transforming Outdoor Spaces</h3>
                         </div>
-
-                        <div id="mainListDiv" class="main_list col-12 col-sm-5 text-right">
-                            <ul class="navlinks">
-                               
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Contact</a></li>
+                        
+                        <div>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                <a class="nav-link" href="#Services">Services <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#Testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                                </li>
                             </ul>
-                        </div>
-                       
-                    </div>
+                        </div>  
+                    </nav>
                 </div>
             </header>
 
@@ -44,91 +53,106 @@
             </section>
             <div class="banner" style="height: 100px"> 
                     <br><br>     
-                    <h2 class="myH2">Call us today at (574) 248-2615 or (574) 903-6792  for a free quote!</h2>
+                    <h2 class="myH2">Call us today at (574) 903-6792 or (574) 248-2615 for a free quote!</h2>
             </div>
             
             <div class="row">
                 <div class= "col-12" style="height: 200px">
+                        <br>
                         <h2 class="myH2">Who We Are</h2>
-                        <h3 class="text-center" style="margin-right: 70px; margin-left: 70px;">We are a family-owned business and we take 
-                            immense pride in our work. We have been providing tree removal, stump removal, bush trimming and lot clearing 
-                            services to Michiana for the past decade.  Our owners, Jack and Tim are ready to serve you.  We would love to 
+                        <h3 class="text-center" style="margin-right: 70px; margin-left: 70px; font-size: 20px height: 150px">We are a family-owned business and we take 
+                            immense pride in our work. We provide tree removal, bush trimming, lot clearing, storm damage services, and stump griding  
+                            services to Michiana for the past decade and we are ready to serve you.  We would love to 
                             speak with you about your outdoor space needs.  We are licensed and insured and we provide a 10% discount for 
                             active military or veterans.  Quotes are always free!
-                        </h3>
+                        
+                    </h3>
+                    
                 </div>
             </div>
 
             <div class="row">
-                <div class= "col-12" style="height: 50px">
-                    <h2 class="myH2">Services We Offer</h2>
+                <div id = "Services" class= "col-12">
+                    <br>
+                    <br>
+                    
+                     <h2 class="myH2">Services We Offer</h2>
                 </div>
             </div>
 
-            <div class="row">
-                <div class= "col-12 col-sm-4" style="height: 500px"> 
-                    <img class="mx-auto d-block" src="images/treecut.jpg" alt="Tree Cutting Picture" height="300px" width="300px">
+            <div class="row justify-content-center">
+                <div class= "col-12 col-sm-2"> 
+                    <img class="rounded mx-auto d-block" src="images/treecut.jpg" alt="Tree Cutting Picture" style="margin-bottom: 20px;" height="200px" width="200px">
                 </div>
                 
-                <div class= "col-12 col-sm-4" style="height: 500px"> 
-                    <img class="mx-auto d-block" src="images/bushtrim.jpg" alt="Tree Cutting Picture" height="300px" width="300px">
+                <div class= "col-12 col-sm-2" > 
+                    <img class="rounded mx-auto d-block" src="images/bushtrim.jpg" alt="Tree Cutting Picture" height="200px" width="200px" style="margin-bottom: 20px";>
                 </div>
 
-                <div class= "col-12 col-sm-4" style="height: 500px"> 
-                    <img class="mx-auto d-block" src="images/lotclear.jpg" alt="Tree Cutting Picture" height="300px" width="300px">
+                <div class= "col-12 col-sm-2" > 
+                    <img class="rounded mx-auto d-block" src="images/lotclear.jpg" alt="Tree Cutting Picture" height="200px" width="200px" style="margin-bottom: 20px";>
                 </div>
             
+                <div class= "col-12 col-sm-2"> 
+                    <img class="rounded mx-auto d-block" src="images/storm.jpg" alt="Tree Cutting Picture" height="200px" width="200px" style="margin-bottom: 20px";>
+                </div>
+
+                <div class= "col-12 col-sm-2"> 
+                    <img class="rounded mx-auto d-block" src="images/stump.jpg" alt="Tree Cutting Picture" height="200px" width="200px" style="margin-bottom: 20px";>
+                </div>
+ 
             </div>
-            
+            <br> <br>
             <div class="row">
-                <div class= "col-12 col-sm-4" style="height: 500px"> 
-                    <img class="mx-auto d-block" src="images/storm.jpg" alt="Tree Cutting Picture" height="300px" width="300px">
+                <div id = "Testimonials" class= "col-12" style="height: 50px">
+                    <h2 class="myH2">Testimonials from Happy Customers</h2>
                 </div>
-                
-                <div class= "col-12 col-sm-4" style="height: 500px"> 
-                    <img class="mx-auto d-block" src="images/stump.jpg" alt="Tree Cutting Picture" height="300px" width="300px">
-                </div>
+            </div>
+            <br>
 
-                <div class= "col-12 col-sm-4" style="height: 500px"> 
-                    <img class="mx-auto d-block" src="images/cleanyard.jpg" alt="Tree Cutting Picture" height="300px" width="300px">
+            <div class="row justify-content-center">
+            
+                <div class= "col-12 col-sm-4 testimonials"  style="margin-left: 70px; margin-right: 50px;" > 
+                    <p>"Patriot Tree Corp cut down our big beautiful silver tree the other week that was rotting out 
+                        and did an awesome job of getting the job done. Would highly recommend this company for any 
+                        tree work that you need done! Thank u Patriot Tree Corp for a job well done!" -Michael</p>
                 </div>
             
+             
+                <div class="col-12 col-sm-4 testimonials" style="margin-left: 70px; margin-left: 50px;"> 
+                    <p>"Good men, fair and honest Corporation, they do great work!" -Rob</p>
+                </div>
             </div>
-      
+            <br>
 
-   
-    <footer class="footer">
+    <footer class="footer" id = "Contact">
         <div class="container">
-            <div class="row">             
-                 
-                <div class="col-6 row justify-content-center">
-                   
-                    <address>
-                      Our Address<br>
-		              123 Main Street<br>
-		              Bremen, IN 46555<br>
-		              USA<br>
+            
+            <div class="row justify-content-center">             
+                
+                <div class="col-6 col-sm-4 align-self-end">
+                     <address> 
+                      Located in Goshen, IN <br><br>
                       AM Tel.: 574-248-2615<br>
                       PM Tel.: 574-903-6792<br>
-		              Email: <a href="patriot@trees.com">patriot@trees.com</a>
+		             
 		           </address>
                 </div>
 
-                <div class="col-6 col-sm-4 align-self-center">
-                    <div class="text-center">
+                <div class="col-6 col-sm-4 align-self-end">
                        <h2>Contact Us</h2>
                         <a href="https://www.facebook.com/arboristpatriottreecorp/"> 
                             <i class="fa fa-facebook" style="font-size:48px; color:white; margin-right: 15px"></i></a>
                         <a href="mailto:">
                             <i class="fa fa-envelope-o" style="font-size:48px; color:white"></i></a>
-                    </div>
                 </div>
-           </div>
-           <div class="row justify-content-center">             
-                <div class="col-auto">
+                <div class="col-auto align-self-end">
                     <h2>© a Blackbox Web Services design</h2>
                 </div>
-           </div>
+            </div>
+
+           
+
         </div>
     </footer>
 
